@@ -1,1 +1,25 @@
 /*https://stackoverflow.com/questions/18096378/full-screen-div-that-fits-browser-size*/
+
+
+.container {
+  display: flex;
+
+}
+
+.navLogo {
+  flex: 1;
+}
+
+.navEmpty {
+  flex: 2;
+}
+
+.navLinks {
+  flex: 1;
+  display: flex;
+}
+
+.link {
+  flex: 1;
+  text-decoration: none;
+}
