@@ -36,7 +36,9 @@
   height: 100vh;
   background: url("https://sdtimes.com/wp-content/uploads/2017/03/pexels-photo-160107.jpeg") no-repeat;
   background-size: cover;
+  color: #ffffff;
 }
+
 
 
 .navBar{
@@ -45,10 +47,21 @@
   height: 3em;
   position: sticky;
   top: 0;
+  height: 3sem;
   /*border: solid 1px;*/
 }
 .navLogo {
   flex: 1;
+}
+
+#logo {
+  /*height: 4em;
+  width: 3.75em;*/
+  max-height: 90%;
+  /*max-height: 3em;*/
+  overflow: hidden;
+  margin-left: 1em;
+
 }
 
 .navEmpty {
