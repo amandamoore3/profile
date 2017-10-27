@@ -1,25 +1,68 @@
 /*https://stackoverflow.com/questions/18096378/full-screen-div-that-fits-browser-size*/
-
-
-.container {
-  display: flex;
-
+* {
+  font-family: monospace;
 }
 
+/*body {
+  display: flex;
+}*/
+
+.box1{
+  flex: 1;
+}
+
+.box3 {
+  flex:3;
+}
+.container {
+  display: flex;
+  /*border: solid 1px;*/
+}
+
+.navBar{
+  display: flex;
+  /*border: solid 1px;*/
+}
 .navLogo {
   flex: 1;
 }
 
 .navEmpty {
   flex: 2;
+  /*border: solid 1px;*/
+
 }
 
 .navLinks {
   flex: 1;
   display: flex;
+  /*border: solid 1px;*/
 }
 
 .link {
   flex: 1;
   text-decoration: none;
+}
+
+.iconLinks {
+  display: flex;
+
+}
+
+.icon {
+  flex:1;
+  height: 50px;
+  width: 50px;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.bio {
+  border: solid 1px;
+  display: flex;
+  flex: 1;
+}
+
+.aboutContainer{
+  border: solid 1px;
 }
