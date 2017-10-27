@@ -7,12 +7,24 @@
   display: flex;
 }*/
 
+.ancTools, .ancPortfolio, .footer {
+  border-top: solid 1px;
+  border-top-color: #cbd4c2;
+  margin-top: 10em;
+  /*margin-bottom: 10em;*/
+}
+
+.toolkitContainer, .portfolioContainer {
+  align-items: center;
+  justify-content: center;
+}
+
 .box1{
   flex: 1;
 }
 
-.box3 {
-  flex:5;
+.box4 {
+  flex:4;
 }
 .container {
   display: flex;
@@ -46,6 +58,11 @@
 .link {
   flex: 1;
   text-decoration: none;
+  color: #CBD4C2;
+  font-size: large;
+  font-weight:600;
+  margin: 1em;
+
 }
 
 .iconLinks {
@@ -60,6 +77,34 @@
   flex-direction: column;
   margin: 0.5em;
 }
+
+
+
+.tool {
+  flex: 1;
+  height: 7em;
+  width: 7em;
+  margin: 1em;
+  padding: 1em;
+}
+
+.thumbnail {
+  height: 3em;
+  width: 6em;
+  margin: 2em;
+}
+
+.thumbnailContainer {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
+
 /*
 .bio {
   border: solid 1px;
@@ -70,10 +115,3 @@
 /*.aboutContainer{
   border: solid 1px;
 }*/
-
-.tool {
-  height: 100px;
-  width: 100px;
-  margin: 10px;
-  flex: 1;
-}
