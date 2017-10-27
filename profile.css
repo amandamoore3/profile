@@ -12,7 +12,7 @@
 }
 
 .box3 {
-  flex:3;
+  flex:5;
 }
 .container {
   display: flex;
@@ -21,6 +21,10 @@
 
 .navBar{
   display: flex;
+  background-color: #303633;
+  height: 3em;
+  position: sticky;
+  top: 0;
   /*border: solid 1px;*/
 }
 .navLogo {
@@ -51,18 +55,25 @@
 
 .icon {
   flex:1;
-  height: 50px;
-  width: 50px;
+  height: 5em;
+  width: 5em;
   flex-direction: column;
-  margin: 5px;
+  margin: 0.5em;
 }
-
+/*
 .bio {
   border: solid 1px;
   display: flex;
   flex: 1;
-}
+}*/
 
-.aboutContainer{
+/*.aboutContainer{
   border: solid 1px;
+}*/
+
+.tool {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  flex: 1;
 }
