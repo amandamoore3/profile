@@ -10,11 +10,11 @@
 .ancTools, .ancPortfolio, .footer {
   border-top: solid 1px;
   border-top-color: #cbd4c2;
-  margin-top: 10em;
+  margin-top: 5em;
   /*margin-bottom: 10em;*/
 }
 
-.toolkitContainer, .portfolioContainer {
+.toolkitContainer, .portfolioContainer, .iconLinks {
   align-items: center;
   justify-content: center;
 }
@@ -30,6 +30,14 @@
   display: flex;
   /*border: solid 1px;*/
 }
+
+
+.fullScreenContainer {
+  height: 100vh;
+  background: url("https://sdtimes.com/wp-content/uploads/2017/03/pexels-photo-160107.jpeg") no-repeat;
+  background-size: cover;
+}
+
 
 .navBar{
   display: flex;
@@ -62,7 +70,12 @@
   font-size: large;
   font-weight:600;
   margin: 1em;
+}
 
+
+
+#headshot, .profBio {
+  padding: 3em;
 }
 
 .iconLinks {
@@ -75,8 +88,10 @@
   height: 5em;
   width: 5em;
   flex-direction: column;
-  margin: 0.5em;
+  margin: 2em;
 }
+
+
 
 
 
@@ -88,15 +103,27 @@
   padding: 1em;
 }
 
+
+
+
+
+
+.thumbnailContainer {
+  flex: 1;
+}
+
 .thumbnail {
   height: 3em;
   width: 6em;
   margin: 2em;
 }
 
-.thumbnailContainer {
-  flex: 1;
+.pName {
+  font-weight: bold;
 }
+
+
+
 
 .footer {
   text-align: center;
