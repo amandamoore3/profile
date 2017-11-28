@@ -1,6 +1,7 @@
 /*https://stackoverflow.com/questions/18096378/full-screen-div-that-fits-browser-size*/
+
 * {
-  font-family: monospace;
+  font-family: arial;
 }
 
 /*body {
@@ -19,18 +20,18 @@
   justify-content: center;
 }
 
-.box1{
+.box1 {
   flex: 1;
 }
 
 .box4 {
-  flex:4;
+  flex: 4;
 }
+
 .container {
   display: flex;
   /*border: solid 1px;*/
 }
-
 
 .fullScreenContainer {
   height: 100vh;
@@ -39,9 +40,7 @@
   color: #ffffff;
 }
 
-
-
-.navBar{
+.navBar {
   display: flex;
   background-color: #303633;
   height: 3em;
@@ -50,6 +49,7 @@
   height: 3sem;
   /*border: solid 1px;*/
 }
+
 .navLogo {
   flex: 1;
 }
@@ -61,13 +61,11 @@
   /*max-height: 3em;*/
   overflow: hidden;
   margin-left: 1em;
-
 }
 
 .navEmpty {
   flex: 2;
   /*border: solid 1px;*/
-
 }
 
 .navLinks {
@@ -81,11 +79,9 @@
   text-decoration: none;
   color: #CBD4C2;
   font-size: large;
-  font-weight:600;
+  font-weight: 600;
   margin: 1em;
 }
-
-
 
 #headshot, .profBio {
   padding: 3em;
@@ -93,20 +89,15 @@
 
 .iconLinks {
   display: flex;
-
 }
 
 .icon {
-  flex:1;
+  flex: 1;
   height: 5em;
   width: 5em;
   flex-direction: column;
   margin: 2em;
 }
-
-
-
-
 
 .tool {
   flex: 1;
@@ -115,11 +106,6 @@
   margin: 1em;
   padding: 1em;
 }
-
-
-
-
-
 
 .thumbnailContainer {
   flex: 1;
@@ -135,15 +121,9 @@
   font-weight: bold;
 }
 
-
-
-
 .footer {
   text-align: center;
 }
-
-
-
 
 /*
 .bio {
